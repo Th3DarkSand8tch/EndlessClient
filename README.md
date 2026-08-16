@@ -57,18 +57,27 @@ www.endlessclient.dev.    A    <ip-du-serveur>
 mods.endlessclient.dev.   A    <ip-du-serveur>
 ```
 
-**2. Envoi** — copie ce dossier sur le serveur :
+**2. Récupération sur le serveur** — le plus simple est de cloner :
+
+```bash
+git clone https://github.com/Th3DarkSand8tch/EndlessClient.git
+cd EndlessClient
+```
+
+Le bit exécutable des scripts et les fins de ligne LF sont versionnés
+(`.gitattributes`) : rien à corriger après le clone.
+
+Si tu préfères envoyer le dossier depuis Windows plutôt que cloner :
 
 ```bash
 rsync -av --exclude node_modules --exclude .git \
       ./endlessclient.dev/ root@<ip>:/root/endlessclient.dev/
+chmod +x install.sh deploy.sh    # rsync depuis Windows perd le bit exécutable
 ```
 
 **3. Installation** :
 
 ```bash
-cd /root/endlessclient.dev
-chmod +x install.sh deploy.sh      # les droits d'exécution ne survivent pas à Windows
 sudo ./install.sh --email toi@exemple.fr
 ```
 
