@@ -1,0 +1,18 @@
+{
+  "id": "ursaminor",
+  "name": "ursa-minor",
+  "slug": "ursa-minor",
+  "version": null,
+  "description": "Ursa Minor may require the following software:",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "ursa-minor",
+  "loaders": [],
+  "minecraft": [],
+  "license": "AGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

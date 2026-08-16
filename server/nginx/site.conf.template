@@ -1,0 +1,84 @@
+# ---------------------------------------------------------------------------
+# __DOMAIN__ — site principal EndlessClient (Astro)
+#
+# Rendu depuis ce gabarit par install.sh : les jetons __DOMAIN__, __WEB_ROOT__
+# et __PORT__ sont remplaces avant copie dans /etc/nginx/sites-available/.
+#
+# Volontairement en HTTP seul. C'est `certbot --nginx` qui ajoute le bloc 443,
+# les directives ssl_* et la redirection 80 -> 443. Ecrire un bloc 443 ici
+# ferait echouer `nginx -t` tant que le certificat n'existe pas.
+#
+# Le build Astro est HYBRIDE : 7 routes sont en `prerender = false`
+# (/api/downloads, /go/[slug], /legal/terms, /legal/privacy, ...). Les fichiers
+# pre-rendus sont servis directement par nginx, le reste part vers le service
+# Node ecoutant sur 127.0.0.1:__PORT__.
+# ---------------------------------------------------------------------------
+
+upstream endlessclient_ssr {
+    server 127.0.0.1:__PORT__;
+    keepalive 16;
+}
+
+server {
+    listen      80;
+    listen [::]:80;
+    server_name __DOMAIN__ www.__DOMAIN__;
+
+    root  __WEB_ROOT__;
+    index index.html;
+
+    access_log /var/log/nginx/__DOMAIN__.access.log;
+    error_log  /var/log/nginx/__DOMAIN__.error.log;
+
+    charset utf-8;
+    server_tokens off;
+
+    add_header X-Content-Type-Options   "nosniff"          always;
+    add_header X-Frame-Options          "SAMEORIGIN"       always;
+    add_header Referrer-Policy          "strict-origin-when-cross-origin" always;
+    add_header Permissions-Policy       "geolocation=(), microphone=(), camera=()" always;
+
+    gzip              on;
+    gzip_vary         on;
+    gzip_min_length   1024;
+    gzip_proxied      any;
+    gzip_types        text/plain text/css text/xml application/json
+                      application/javascript application/xml+rss
+                      image/svg+xml application/manifest+json;
+
+    # Assets Astro : nom de fichier avec empreinte, donc immuables.
+    location /_astro/ {
+        expires 1y;
+        add_header Cache-Control "public, immutable";
+        try_files $uri =404;
+    }
+
+    location /media/ {
+        expires 30d;
+        add_header Cache-Control "public";
+        try_files $uri =404;
+    }
+
+    location = /favicon.ico { access_log off; expires 30d; try_files $uri =404; }
+    location = /robots.txt  { access_log off;              try_files $uri =404; }
+
+    # Statique d'abord, SSR en dernier recours.
+    location / {
+        try_files $uri $uri/index.html $uri.html @ssr;
+    }
+
+    location @ssr {
+        proxy_pass         http://endlessclient_ssr;
+        proxy_http_version 1.1;
+        proxy_set_header   Connection        "";
+        proxy_set_header   Host              $host;
+        proxy_set_header   X-Real-IP         $remote_addr;
+        proxy_set_header   X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+        proxy_read_timeout 30s;
+    }
+
+    location ~ /\.(?!well-known) {
+        deny all;
+    }
+}

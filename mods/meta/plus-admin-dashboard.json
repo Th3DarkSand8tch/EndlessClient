@@ -1,0 +1,18 @@
+{
+  "id": "plusadmindashboard",
+  "name": "plus-admin-dashboard",
+  "slug": "plus-admin-dashboard",
+  "version": null,
+  "description": "Welcome to your new TanStack app!",
+  "group": "",
+  "category": "infra",
+  "source": "none",
+  "repo": "plus-admin-dashboard",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

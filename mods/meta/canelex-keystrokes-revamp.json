@@ -1,0 +1,22 @@
+{
+  "id": "endlessclientkeystrokes",
+  "name": "Keystrokes",
+  "slug": "canelex-keystrokes-revamp",
+  "version": "1.0.0",
+  "description": "",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "Canelex-KeyStrokes-Revamp",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9"
+  ],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/keystrokes.svg",
+  "jar": null
+}

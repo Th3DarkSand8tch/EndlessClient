@@ -1,0 +1,18 @@
+{
+  "id": "endlessconfigdocumentation",
+  "name": "EndlessConfig-Documentation",
+  "slug": "endlessconfig-documentation",
+  "version": null,
+  "description": "Welcome to the EndlessConfig documentation for developers and designers. If you're confused about how to integrate your mod with EndlessConfig, or just what something does, there's a good chance the answer is here.",
+  "group": "",
+  "category": "docs",
+  "source": "none",
+  "repo": "OneConfig-Documentation",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

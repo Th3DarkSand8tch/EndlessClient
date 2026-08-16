@@ -1,0 +1,31 @@
+{
+  "id": "evergreenhud",
+  "name": "EvergreenHUD",
+  "slug": "evergreenhud",
+  "version": "3.7.0",
+  "description": "Continuation of isXander's EvergreenHUD with EndlessConfig.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "EvergreenHUD",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "1yIQcc2b",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/evergreen_h_u_d.svg",
+  "jar": null
+}

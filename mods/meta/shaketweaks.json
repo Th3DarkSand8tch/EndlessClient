@@ -1,0 +1,24 @@
+{
+  "id": "shaketweaks",
+  "name": "ShakeTweaks",
+  "slug": "shaketweaks",
+  "version": "1.0.0-alpha.1",
+  "description": "",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "ShakeTweaks",
+  "loaders": [
+    "forge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

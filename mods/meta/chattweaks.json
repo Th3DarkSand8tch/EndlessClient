@@ -1,0 +1,31 @@
+{
+  "id": "chattweaks",
+  "name": "ChatTweaks",
+  "slug": "chattweaks",
+  "version": "1.1.1",
+  "description": "",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "ChatTweaks",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "other",
+  "modrinth": "8LNT47ZH",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

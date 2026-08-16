@@ -1,0 +1,23 @@
+{
+  "id": "endlessconfigbootstrap",
+  "name": "EndlessConfig-Bootstrap",
+  "slug": "endlessconfig-bootstrap",
+  "version": "1.0.3",
+  "description": "A standalone mod that loads EndlessConfig.",
+  "group": "",
+  "category": "library",
+  "source": "gradle",
+  "repo": "OneConfig-Bootstrap",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

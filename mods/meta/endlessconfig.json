@@ -1,0 +1,18 @@
+{
+  "id": "endlessconfig",
+  "name": "EndlessConfig",
+  "slug": "endlessconfig",
+  "version": null,
+  "description": "EndlessConfig is a free, open sourced configuration library by EndlessClient, designed to give developers a simple config API, which users can interact with in an elegant user interface.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "OneConfig",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

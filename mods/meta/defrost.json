@@ -1,0 +1,18 @@
+{
+  "id": "defrost",
+  "name": "defrost",
+  "slug": "defrost",
+  "version": null,
+  "description": "This is a library aimed to replace Mojang's LegacyLauncher, more known as launchwrapper.",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "defrost",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "endlessconfigloader",
+  "name": "EndlessConfigLoader",
+  "slug": "endlessconfigloader",
+  "version": null,
+  "description": "This repository contains the source code for early loading of [EndlessConfig].",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "OneConfigLoader",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

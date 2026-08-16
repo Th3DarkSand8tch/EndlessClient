@@ -1,0 +1,24 @@
+{
+  "id": "rendertweaks",
+  "name": "RenderTweaks",
+  "slug": "rendertweaks",
+  "version": "1.0.0-alpha.1",
+  "description": "Allows modifying the rendering of some in world things.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "RenderTweaks",
+  "loaders": [
+    "forge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

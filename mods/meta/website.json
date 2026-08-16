@@ -1,0 +1,18 @@
+{
+  "id": "website",
+  "name": "website",
+  "slug": "website",
+  "version": null,
+  "description": "endlessclient.org »",
+  "group": "",
+  "category": "infra",
+  "source": "none",
+  "repo": "website",
+  "loaders": [],
+  "minecraft": [],
+  "license": "AGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

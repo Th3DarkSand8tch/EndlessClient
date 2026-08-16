@@ -1,0 +1,18 @@
+{
+  "id": "skia",
+  "name": "skia",
+  "slug": "skia",
+  "version": null,
+  "description": "Skia is a complete 2D graphic library for drawing Text, Geometries, and Images.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "skia",
+  "loaders": [],
+  "minecraft": [],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

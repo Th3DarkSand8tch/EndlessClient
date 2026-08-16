@@ -1,0 +1,18 @@
+{
+  "id": "spice",
+  "name": "Spice",
+  "slug": "spice",
+  "version": null,
+  "description": "",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "Spice",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

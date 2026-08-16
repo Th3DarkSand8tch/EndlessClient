@@ -1,0 +1,31 @@
+{
+  "id": "endlesstime",
+  "name": "EndlessTime",
+  "slug": "endlesstime",
+  "version": "1.2.2",
+  "description": "A simple, no-nonsense time-changer mod, which does exactly that.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "PolyTime",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "m3kNp1iP",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/endless_time.svg",
+  "jar": null
+}

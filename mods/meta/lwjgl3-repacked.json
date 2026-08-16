@@ -1,0 +1,18 @@
+{
+  "id": "lwjgl3repacked",
+  "name": "lwjgl3-repacked",
+  "slug": "lwjgl3-repacked",
+  "version": null,
+  "description": "This project is now deprecated, and you should consider switching to its alternative: https://github.com/EndlessClient/lwjgl3-bootstrap",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "lwjgl3-repacked",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

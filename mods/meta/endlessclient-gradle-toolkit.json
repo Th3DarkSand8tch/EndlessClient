@@ -1,0 +1,18 @@
+{
+  "id": "endlessclientgradletoolkit",
+  "name": "endlessclient-gradle-toolkit",
+  "slug": "endlessclient-gradle-toolkit",
+  "version": null,
+  "description": "A Gradle plugin providing various utility methods and common code required to set up multi-version Minecraft mods via [architectury-loom] and [preprocessor].",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "polyfrost-gradle-toolkit",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

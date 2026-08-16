@@ -1,0 +1,22 @@
+{
+  "id": "endlessanimations",
+  "name": "EndlessAnimations",
+  "slug": "endlessanimations",
+  "version": "1.2.0-alpha1",
+  "description": "This mod is now replaced by EndlessAnimationsV2, which integrates Sk1er OAM into the mod (users no longer need Sk1er OAM to run it) and includes a complete rewrite of the 1.7 animation features.",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "OverflowAnimations",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9"
+  ],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/endless_animations.svg",
+  "jar": null
+}

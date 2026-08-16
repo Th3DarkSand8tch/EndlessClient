@@ -1,0 +1,32 @@
+{
+  "id": "endlesscrosshair",
+  "name": "EndlessCrosshair",
+  "slug": "endlesscrosshair",
+  "version": "2.0.0-alpha.1",
+  "description": "A crosshair modification mod",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "PolyCrosshair",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21",
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "pWXJaKrX",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

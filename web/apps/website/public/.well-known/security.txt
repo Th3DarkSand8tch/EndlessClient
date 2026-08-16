@@ -1,0 +1,13 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:security@endlessclient.dev
+Expires:
+Encryption: https://endlessclient.dev/.gpg/admins.gpg
+Preferred-Languages: en
+Canonical: https://endlessclient.dev/.well-known/security.txt
+Policy: https://endlessclient.dev/legal/security
+-----BEGIN PGP SIGNATURE-----
+
+
+-----END PGP SIGNATURE-----

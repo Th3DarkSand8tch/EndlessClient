@@ -1,0 +1,18 @@
+{
+  "id": "packwiz",
+  "name": "packwiz",
+  "slug": "packwiz",
+  "version": null,
+  "description": "Get builds via GitHub Actions or nightly.link",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "packwiz",
+  "loaders": [],
+  "minecraft": [],
+  "license": "MIT",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

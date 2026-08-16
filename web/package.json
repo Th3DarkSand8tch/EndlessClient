@@ -1,0 +1,35 @@
+{
+	"name": "@endlessclient/nexus",
+	"type": "module",
+	"version": "0.0.0",
+	"private": true,
+	"packageManager": "pnpm@10.12.4+sha512.5ea8b0deed94ed68691c9bad4c955492705c5eeb8a87ef86bc62c74a26b037b08ff9570f108b2e4dbd1dd1a9186fea925e527f141c648e85af45631074680184",
+	"description": "Monorepo containing EndlessClient's TypeScript-based infrastructure",
+	"license": "AGPL-3.0-only",
+	"engines": {
+		"pnpm": ">=9",
+		"npm": "pnpm",
+		"yarn": "pnpm",
+		"node": ">=18"
+	},
+	"scripts": {
+		"typecheck": "pnpm -r typecheck",
+		"lint": "eslint --cache --flag unstable_ts_config .",
+		"format": "pnpm lint --fix",
+		"website": "pnpm --filter @endlessclient/website -- ",
+		"assets": "pnpm --filter @endlessclient/assets -- ",
+		"doc": "pnpm --filter @endlessclient/docs -- ",
+		"contrib": "pnpm --filter @endlessclient/docs-contrib -- "
+	},
+	"devDependencies": {
+		"@flowr/eslint": "^6.0.0",
+		"@types/node": "~25.9.1",
+		"@unocss/eslint-plugin": "^66.6.8",
+		"astro-eslint-parser": "^1.4.0",
+		"eslint": "^9.39.4",
+		"eslint-plugin-astro": "^1.7.0",
+		"eslint-plugin-jsx-a11y": "^6.10.2",
+		"vite": "^7.3.3",
+		"vitest": "^4.1.6"
+	}
+}

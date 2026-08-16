@@ -1,0 +1,18 @@
+{
+  "id": "interfrostworkers",
+  "name": "interfrost-workers",
+  "slug": "interfrost-workers",
+  "version": null,
+  "description": "a collection of core workers for EndlessClient/pulseflow apis",
+  "group": "",
+  "category": "infra",
+  "source": "none",
+  "repo": "interfrost-workers",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

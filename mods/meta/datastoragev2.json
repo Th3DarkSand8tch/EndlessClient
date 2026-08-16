@@ -1,0 +1,18 @@
+{
+  "id": "datastoragev2",
+  "name": "DataStorageV2",
+  "slug": "datastoragev2",
+  "version": null,
+  "description": "Place for storing data for EndlessClient projects such as EndlessClient",
+  "group": "",
+  "category": "data",
+  "source": "none",
+  "repo": "DataStorageV2",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

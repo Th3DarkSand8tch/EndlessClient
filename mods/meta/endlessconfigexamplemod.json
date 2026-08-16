@@ -1,0 +1,23 @@
+{
+  "id": "endlessconfigexamplemod",
+  "name": "EndlessConfigExampleMod",
+  "slug": "endlessconfigexamplemod",
+  "version": "1.0.0",
+  "description": "Example mod implementing EndlessConfig.",
+  "group": "",
+  "category": "example",
+  "source": "gradle",
+  "repo": "OneConfigExampleMod",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

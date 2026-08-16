@@ -1,0 +1,31 @@
+{
+  "id": "endlesshitbox",
+  "name": "EndlessHitbox",
+  "slug": "endlesshitbox",
+  "version": "1.1.4",
+  "description": "A hitbox modification mod",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "PolyHitbox",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "Mptc0jo6",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

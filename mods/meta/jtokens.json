@@ -1,0 +1,18 @@
+{
+  "id": "jtokens",
+  "name": "JTokens",
+  "slug": "jtokens",
+  "version": null,
+  "description": "JTokens is a general purpose library to parse JSON design tokens.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "JTokens",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,23 @@
+{
+  "id": "patcher",
+  "name": "Patcher",
+  "slug": "endlesspatcher",
+  "version": "1.10.4",
+  "description": "EndlessPatcher is a Forge mod for 1.8.9 & 1.12.2 created to improve your all-around Minecraft experience, bringing tons of Quality of Life additions, performance improvements, and tons of Vanilla bug fixes.",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "PolyPatcher",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

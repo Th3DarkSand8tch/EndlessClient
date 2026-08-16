@@ -1,0 +1,29 @@
+{
+  "id": "omnicore",
+  "name": "OmniCore",
+  "slug": "omnicore",
+  "version": "1.0.0-beta.41",
+  "description": "Your new favourite Minecraft multi-versioning utility library.",
+  "group": "dev.deftu",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "OmniCore",
+  "loaders": [
+    "neoforge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1"
+  ],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

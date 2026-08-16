@@ -1,0 +1,18 @@
+{
+  "id": "branding",
+  "name": "Branding",
+  "slug": "branding",
+  "version": null,
+  "description": "",
+  "group": "",
+  "category": "docs",
+  "source": "none",
+  "repo": "Branding",
+  "loaders": [],
+  "minecraft": [],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

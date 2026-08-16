@@ -1,0 +1,18 @@
+{
+  "id": "sodium",
+  "name": "sodium",
+  "slug": "sodium",
+  "version": null,
+  "description": "Sodium is a powerful rendering engine and optimization mod for the Minecraft client which improves frame rates and reduces",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "sodium",
+  "loaders": [],
+  "minecraft": [],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

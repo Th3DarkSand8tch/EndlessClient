@@ -1,0 +1,18 @@
+{
+  "id": "backend",
+  "name": "backend",
+  "slug": "backend",
+  "version": null,
+  "description": "The rust-based backend for endlessclient's software, primarily used for update-checking and downloading",
+  "group": "",
+  "category": "infra",
+  "source": "none",
+  "repo": "backend",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

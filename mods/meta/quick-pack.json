@@ -1,0 +1,18 @@
+{
+  "id": "quick-pack",
+  "name": "quick-pack",
+  "slug": "quick-pack",
+  "version": "1.4.0",
+  "description": "A simple mod to optimize datapack / resourcepack zip file loading times. It scales particularly well for zips with many files, but also yields faster loading times for small resource packs.",
+  "group": "",
+  "category": "tooling",
+  "source": "fabric-template",
+  "repo": "quick-pack",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

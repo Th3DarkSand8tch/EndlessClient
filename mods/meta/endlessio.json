@@ -1,0 +1,18 @@
+{
+  "id": "endlessio",
+  "name": "EndlessIO",
+  "slug": "endlessio",
+  "version": null,
+  "description": "maven(\"https://repo.endlessclient.org/releases\")",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "PolyIO",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

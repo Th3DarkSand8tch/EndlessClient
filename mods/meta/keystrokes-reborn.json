@@ -1,0 +1,23 @@
+{
+  "id": "endlesskeystrokes",
+  "name": "EndlessKeystrokes",
+  "slug": "keystrokes-reborn",
+  "version": "1.0.0",
+  "description": "Example mod implementing EndlessConfig.",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "Keystrokes-Reborn",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/keystrokes.svg",
+  "jar": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "endlesssprint",
+  "name": "EndlessSprint",
+  "slug": "endlesssprint",
+  "version": "1.2.2",
+  "description": "A simple yet incredibly functional toggle-sprint mod with a wide array of different features and customization",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "PolySprint",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "AGPL-3.0",
+  "modrinth": "i9xRThb3",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/endless_sprint.svg",
+  "jar": null
+}

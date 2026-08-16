@@ -1,0 +1,22 @@
+{
+  "id": "view-model",
+  "name": "View-Model",
+  "slug": "view-model",
+  "version": "1.0.4-26.2-fabric",
+  "description": "",
+  "group": "net.i_no_am.view_model",
+  "category": "mod",
+  "source": "fabric-template",
+  "repo": "View-Model",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "26.2"
+  ],
+  "license": "MIT",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

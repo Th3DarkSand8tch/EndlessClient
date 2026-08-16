@@ -1,0 +1,18 @@
+{
+  "id": "keventbusforge",
+  "name": "keventbus-forge",
+  "slug": "keventbus-forge",
+  "version": null,
+  "description": "JVM Eventbus focused on thread-safety and performance.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "keventbus-forge",
+  "loaders": [],
+  "minecraft": [],
+  "license": "MIT",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "legal",
+  "name": "Legal",
+  "slug": "legal",
+  "version": null,
+  "description": "Legal Documents for EndlessClient",
+  "group": "",
+  "category": "docs",
+  "source": "none",
+  "repo": "Legal",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,31 @@
+{
+  "id": "crashpatch",
+  "name": "CrashPatch",
+  "slug": "crashpatch",
+  "version": "2.1.5",
+  "description": "CrashPatch is a Minecraft (1.8.9) modification port of the BetterCrashes Minecraft modification (1.7.10) which is a port of the VanillaFix Minecraft modification (1.12.2).",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "CrashPatch",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "nZ3E8WQz",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/crash_patch.svg",
+  "jar": null
+}

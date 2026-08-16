@@ -1,0 +1,18 @@
+{
+  "id": "packmanager",
+  "name": "PackManager",
+  "slug": "packmanager",
+  "version": null,
+  "description": "",
+  "group": "",
+  "category": "empty",
+  "source": "none",
+  "repo": "PackManager",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

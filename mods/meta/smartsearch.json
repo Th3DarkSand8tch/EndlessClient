@@ -1,0 +1,18 @@
+{
+  "id": "smartsearch",
+  "name": "SmartSearch",
+  "slug": "smartsearch",
+  "version": null,
+  "description": "Smart search for EndlessConfig, providing ML powered semantic search.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "SmartSearch",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

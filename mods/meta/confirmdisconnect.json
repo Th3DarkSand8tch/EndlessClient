@@ -1,0 +1,24 @@
+{
+  "id": "confirmdisconnect",
+  "name": "Confirm Disconnect",
+  "slug": "confirmdisconnect",
+  "version": "1.1.4",
+  "description": "Adds a confirmation screen whenever you disconnect from a world/server making sure you want to actually quit!",
+  "group": "dev.microcontrollers.confirmdisconnect",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "ConfirmDisconnect",
+  "loaders": [
+    "forge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "other",
+  "modrinth": "qyu2y7wG",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

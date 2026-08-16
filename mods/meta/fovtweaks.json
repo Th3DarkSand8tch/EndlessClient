@@ -1,0 +1,24 @@
+{
+  "id": "fovtweaks",
+  "name": "FOVTweaks",
+  "slug": "fovtweaks",
+  "version": "1.0.0-alpha.1",
+  "description": "Unmaintained - go to https://codeberg.org/chromatic/FOVChanger instead",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "FOVTweaks",
+  "loaders": [
+    "forge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

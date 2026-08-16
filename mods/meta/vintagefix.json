@@ -1,0 +1,23 @@
+{
+  "id": "vintagefix",
+  "name": "VintageFix",
+  "slug": "vintagefix",
+  "version": "1.0.0.alpha.1",
+  "description": "Experimental performance mod for 1.12, intended to expand upon and replace FoamFix.",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "VintageFix",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

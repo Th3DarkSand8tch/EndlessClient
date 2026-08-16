@@ -1,0 +1,18 @@
+{
+  "id": "isolatedlwjgl3loader",
+  "name": "isolated-lwjgl3-loader",
+  "slug": "isolated-lwjgl3-loader",
+  "version": null,
+  "description": "A quick and easy way of dynamically loading LWJGL3.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "isolated-lwjgl3-loader",
+  "loaders": [],
+  "minecraft": [],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

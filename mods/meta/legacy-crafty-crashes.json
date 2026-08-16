@@ -1,0 +1,23 @@
+{
+  "id": "legacycraftycrashes",
+  "name": "Legacy Crafty Crashes",
+  "slug": "legacy-crafty-crashes",
+  "version": "1.0.0",
+  "description": "A Forge mod which modifies stack traces in crash reports to include the relevant Mixin and source line number where appropriate, acting as a super Mixin Trace whilst still working alongside it. Includes an SMAP reader in the off chance you need one too.",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "Legacy-Crafty-Crashes",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

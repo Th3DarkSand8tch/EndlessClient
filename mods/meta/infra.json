@@ -1,0 +1,18 @@
+{
+  "id": "infra",
+  "name": "infra",
+  "slug": "infra",
+  "version": null,
+  "description": "This repository contains the code for all of the EndlessClient infrastructure (primarily our VPS,",
+  "group": "",
+  "category": "infra",
+  "source": "none",
+  "repo": "infra",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

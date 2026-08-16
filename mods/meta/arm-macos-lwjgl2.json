@@ -1,0 +1,18 @@
+{
+  "id": "armmacoslwjgl2",
+  "name": "arm-macos-lwjgl2",
+  "slug": "arm-macos-lwjgl2",
+  "version": null,
+  "description": "The Lightweight Java Game Library (LWJGL) is a solution aimed directly at professional and amateur Java programmers alike to enable commercial quality games to be written in Java.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "arm-macos-lwjgl2",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

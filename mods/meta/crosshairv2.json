@@ -1,0 +1,18 @@
+{
+  "id": "crosshairv2",
+  "name": "CrosshairV2",
+  "slug": "crosshairv2",
+  "version": "0.1.0-beta5",
+  "description": "A fully customizable Crosshair mod, allowing for a more precise PvP experience.",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "CrosshairV2",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

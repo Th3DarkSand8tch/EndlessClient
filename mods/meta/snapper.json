@@ -1,0 +1,23 @@
+{
+  "id": "snapper",
+  "name": "Snapper",
+  "slug": "snapper",
+  "version": "1.1",
+  "description": "Screenshots, made simple",
+  "group": "dev.spiritstudios",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "Snapper",
+  "loaders": [
+    "neoforge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.5"
+  ],
+  "license": "MPL-2.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": "knowledgebase",
+  "name": "Knowledgebase",
+  "slug": "knowledgebase",
+  "version": null,
+  "description": "{% content-ref url=\"endlessconfig/failed-to-download.md\" %}",
+  "group": "",
+  "category": "docs",
+  "source": "none",
+  "repo": "Knowledgebase",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

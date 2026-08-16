@@ -1,0 +1,58 @@
+# ---------------------------------------------------------------------------
+# Service SSR du site EndlessClient.
+#
+# Rendu depuis ce gabarit par install.sh (__APP_DIR__, __SERVICE_USER__, __PORT__).
+#
+# N'est installe QUE si le build produit dist/server/entry.mjs, c'est-a-dire si
+# au moins une route est en `prerender = false`. Un build 100 % statique n'a
+# besoin d'aucun processus : nginx sert les fichiers et ce service est inutile.
+#
+# N'ecoute que sur la boucle locale : nginx est le seul point d'entree public.
+# ---------------------------------------------------------------------------
+
+[Unit]
+Description=EndlessClient — serveur SSR Astro
+Documentation=https://endlessclient.dev
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=__SERVICE_USER__
+Group=__SERVICE_USER__
+WorkingDirectory=__APP_DIR__/web/apps/website
+
+Environment=NODE_ENV=production
+Environment=HOST=127.0.0.1
+Environment=PORT=__PORT__
+# Secrets facultatifs (GITHUB_PAT pour /api/downloads). Absent = ignore.
+EnvironmentFile=-__APP_DIR__/.env
+
+ExecStart=/usr/bin/node ./dist/server/entry.mjs
+
+Restart=on-failure
+RestartSec=5s
+KillSignal=SIGINT
+TimeoutStopSec=20s
+
+# Durcissement : le service n'a besoin de rien ecrire.
+NoNewPrivileges=true
+PrivateTmp=true
+PrivateDevices=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectControlGroups=true
+RestrictAddressFamilies=AF_INET AF_INET6
+RestrictNamespaces=true
+LockPersonality=true
+SystemCallFilter=@system-service
+SystemCallErrorNumber=EPERM
+
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=endlessclient-web
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,18 @@
+{
+  "id": "endlessbot",
+  "name": "EndlessBot",
+  "slug": "endlessbot",
+  "version": null,
+  "description": "",
+  "group": "",
+  "category": "app",
+  "source": "none",
+  "repo": "PolyBot",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

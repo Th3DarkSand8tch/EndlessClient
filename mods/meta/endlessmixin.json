@@ -1,0 +1,18 @@
+{
+  "id": "endlessmixin",
+  "name": "EndlessMixin",
+  "slug": "endlessmixin",
+  "version": null,
+  "description": "and hooking into the runtime classloading process via a set of pluggable",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "PolyMixin",
+  "loaders": [],
+  "minecraft": [],
+  "license": "MIT",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

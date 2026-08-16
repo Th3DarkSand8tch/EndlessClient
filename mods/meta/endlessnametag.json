@@ -1,0 +1,31 @@
+{
+  "id": "endlessnametag",
+  "name": "EndlessNametag",
+  "slug": "endlessnametag",
+  "version": "1.1.1",
+  "description": "A nametag modification mod",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "PolyNametag",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "HK3p7LMj",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/endless_nametag.svg",
+  "jar": null
+}

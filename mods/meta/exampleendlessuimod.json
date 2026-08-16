@@ -1,0 +1,22 @@
+{
+  "id": "exampleendlessuimod",
+  "name": "ExampleEndlessUIMod",
+  "slug": "exampleendlessuimod",
+  "version": "1.0.0",
+  "description": "EndlessUI has drastically changed this was first made; please use EndlessConfig directly instead of implementing EndlessUI in Minecraft yourself.",
+  "group": "",
+  "category": "example",
+  "source": "gradle",
+  "repo": "ExamplePolyUIMod",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.20.1"
+  ],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

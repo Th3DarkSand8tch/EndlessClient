@@ -1,0 +1,18 @@
+{
+  "id": "endlessconfigwrapper",
+  "name": "EndlessConfigWrapper",
+  "slug": "endlessconfigwrapper",
+  "version": null,
+  "description": "",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "OneConfigWrapper",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

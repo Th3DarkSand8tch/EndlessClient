@@ -1,0 +1,18 @@
+{
+  "id": "endlesshelper",
+  "name": "EndlessHelper",
+  "slug": "endlesshelper",
+  "version": null,
+  "description": "a bot to do misc things in the SkyClient server, originally intended to only",
+  "group": "",
+  "category": "app",
+  "source": "none",
+  "repo": "PolyHelper",
+  "loaders": [],
+  "minecraft": [],
+  "license": "MIT",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

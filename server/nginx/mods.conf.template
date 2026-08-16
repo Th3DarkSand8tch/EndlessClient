@@ -1,0 +1,81 @@
+# ---------------------------------------------------------------------------
+# mods.__DOMAIN__ — catalogue et depot de fichiers .jar
+#
+# Rendu depuis ce gabarit par install.sh (__DOMAIN__, __MODS_ROOT__).
+# HTTP seul : certbot --nginx ajoute le 443 et la redirection. Voir site.conf.template.
+#
+# Sert quatre choses :
+#   /                  index.html, la page de listing (lit mods.json en fetch)
+#   /mods.json         le catalogue complet
+#   /meta/<slug>.json  une fiche par depot
+#   /jars/<f>.jar      les binaires deposes a la main
+#
+# CORS ouvert en lecture sur le JSON : le site principal __DOMAIN__ est une
+# origine differente et doit pouvoir interroger le catalogue.
+# ---------------------------------------------------------------------------
+
+server {
+    listen      80;
+    listen [::]:80;
+    server_name mods.__DOMAIN__;
+
+    root  __MODS_ROOT__;
+    index index.html;
+
+    access_log /var/log/nginx/mods.__DOMAIN__.access.log;
+    error_log  /var/log/nginx/mods.__DOMAIN__.error.log;
+
+    charset utf-8;
+    server_tokens off;
+
+    add_header X-Content-Type-Options "nosniff"    always;
+    add_header X-Frame-Options        "SAMEORIGIN" always;
+    add_header Referrer-Policy        "strict-origin-when-cross-origin" always;
+
+    gzip            on;
+    gzip_vary       on;
+    gzip_min_length 1024;
+    gzip_types      text/plain text/css application/json application/javascript image/svg+xml;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    # Catalogue : court TTL, il est regenere a chaque deploiement.
+    location = /mods.json {
+        add_header Access-Control-Allow-Origin  "*"   always;
+        add_header Access-Control-Allow-Methods "GET, HEAD, OPTIONS" always;
+        add_header Cache-Control                "public, max-age=300" always;
+        default_type application/json;
+        try_files $uri =404;
+    }
+
+    location /meta/ {
+        add_header Access-Control-Allow-Origin  "*"   always;
+        add_header Access-Control-Allow-Methods "GET, HEAD, OPTIONS" always;
+        add_header Cache-Control                "public, max-age=300" always;
+        default_type application/json;
+        try_files $uri =404;
+    }
+
+    location /icons/ {
+        expires 30d;
+        add_header Cache-Control                "public" always;
+        add_header Access-Control-Allow-Origin  "*"      always;
+        try_files $uri =404;
+    }
+
+    # Les .jar sont immuables : le numero de version est dans le nom du fichier.
+    # Content-Disposition force le telechargement plutot qu'un rendu navigateur.
+    location /jars/ {
+        expires 1y;
+        add_header Cache-Control       "public, immutable" always;
+        add_header Content-Disposition "attachment"        always;
+        default_type application/java-archive;
+        try_files $uri =404;
+    }
+
+    location ~ /\.(?!well-known) {
+        deny all;
+    }
+}

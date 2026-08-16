@@ -1,0 +1,18 @@
+{
+  "id": "plusbackend",
+  "name": "plus-backend",
+  "slug": "plus-backend",
+  "version": null,
+  "description": "This repo contains the code for the PolyPlus backend.",
+  "group": "",
+  "category": "infra",
+  "source": "none",
+  "repo": "plus-backend",
+  "loaders": [],
+  "minecraft": [],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

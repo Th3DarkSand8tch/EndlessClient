@@ -1,0 +1,18 @@
+{
+  "id": "buildformat",
+  "name": "BuildFormat",
+  "slug": "buildformat",
+  "version": null,
+  "description": "This repository contains shared build logic for EndlessClient projects. It is intended to be used as a git submodule in other projects. It is only intended for use within the EndlessClient organization, so support for other projects is not guaranteed.",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "BuildFormat",
+  "loaders": [],
+  "minecraft": [],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

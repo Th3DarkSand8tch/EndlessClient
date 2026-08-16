@@ -1,0 +1,413 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mods — EndlessClient</title>
+<meta name="description" content="Catalogue des mods, bibliotheques et outils EndlessClient.">
+<link rel="icon" href="/logo.png" type="image/png">
+<meta property="og:title" content="Mods — EndlessClient">
+<meta property="og:description" content="Catalogue des mods, bibliotheques et outils EndlessClient.">
+<meta property="og:image" content="/logo.png">
+<style>
+/* Palette derivee du logo : E de pierre violette, eclairs, fond nuit. */
+:root {
+	--bg:        #0b0710;
+	--bg-2:      #140c1e;
+	--surface:   #1a1028;
+	--surface-2: #241634;
+	--border:    #33224a;
+	--text:      #ede6f7;
+	--muted:     #a394bb;
+	--accent:    #a855f7;
+	--accent-2:  #7e22ce;
+	--accent-dim:#4a1d75;
+	--radius: 12px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+	margin: 0;
+	background:
+		radial-gradient(90rem 50rem at 50% -20rem, #3b1163 0%, transparent 60%),
+		var(--bg);
+	color: var(--text);
+	font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+	min-height: 100vh;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.wrap { max-width: 1180px; margin: 0 auto; padding: 0 1.25rem; }
+
+/* --- En-tete --- */
+
+header { padding: 4rem 0 2.5rem; text-align: center; }
+
+.logo {
+	width: 128px; height: 128px;
+	object-fit: contain;
+	filter: drop-shadow(0 0 2.5rem rgba(168, 85, 247, .45));
+}
+
+h1 {
+	margin: 1.25rem 0 .5rem;
+	font-size: clamp(2rem, 6vw, 3.25rem);
+	letter-spacing: -.02em;
+	background: linear-gradient(180deg, #f3e8ff, var(--accent));
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+.tagline { margin: 0; color: var(--muted); font-size: 1.05rem; }
+
+.stats {
+	display: flex; flex-wrap: wrap; gap: .5rem;
+	justify-content: center; margin-top: 1.75rem;
+}
+.stat {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: 100vw;
+	padding: .4rem 1rem;
+	font-size: .85rem;
+	color: var(--muted);
+}
+.stat b { color: var(--text); }
+
+/* --- Controles --- */
+
+.controls {
+	position: sticky; top: 0; z-index: 10;
+	display: flex; flex-wrap: wrap; gap: .6rem;
+	padding: 1rem 0;
+	background: linear-gradient(var(--bg) 70%, transparent);
+}
+
+input[type="search"], select {
+	background: var(--surface);
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	color: var(--text);
+	padding: .6rem .9rem;
+	font: inherit;
+	font-size: .95rem;
+}
+input[type="search"] { flex: 1 1 16rem; }
+input[type="search"]::placeholder { color: var(--muted); }
+input:focus-visible, select:focus-visible, a:focus-visible {
+	outline: 2px solid var(--accent);
+	outline-offset: 2px;
+}
+
+/* --- Grille --- */
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr));
+	gap: 1rem;
+	padding-bottom: 4rem;
+}
+
+.card {
+	display: flex; flex-direction: column; gap: .7rem;
+	background: linear-gradient(160deg, var(--surface), var(--bg-2));
+	border: 1px solid var(--border);
+	border-radius: var(--radius);
+	padding: 1.15rem;
+	transition: border-color .15s, transform .15s;
+}
+.card:hover { border-color: var(--accent-dim); transform: translateY(-2px); }
+
+.card-head { display: flex; align-items: center; gap: .7rem; }
+.card-head img { width: 32px; height: 32px; border-radius: 7px; background: var(--surface-2); }
+.card-head .fallback {
+	width: 32px; height: 32px; border-radius: 7px;
+	display: grid; place-items: center;
+	background: var(--accent-dim); color: #f3e8ff;
+	font-weight: 700; font-size: .85rem;
+}
+.card h2 { margin: 0; font-size: 1.05rem; line-height: 1.3; }
+.version { color: var(--muted); font-size: .8rem; font-variant-numeric: tabular-nums; }
+
+.desc {
+	margin: 0; color: var(--muted); font-size: .9rem;
+	display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.tags { display: flex; flex-wrap: wrap; gap: .35rem; }
+.tag {
+	background: var(--surface-2);
+	border: 1px solid var(--border);
+	border-radius: 6px;
+	padding: .15rem .5rem;
+	font-size: .74rem;
+	color: var(--muted);
+}
+.tag.loader { border-color: var(--accent-dim); color: #d8b4fe; }
+
+.links { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: auto; padding-top: .3rem; }
+.btn {
+	border: 1px solid var(--border);
+	border-radius: 8px;
+	padding: .38rem .75rem;
+	font-size: .82rem;
+	color: var(--text);
+}
+.btn:hover { text-decoration: none; border-color: var(--accent); }
+.btn.primary { background: var(--accent-2); border-color: var(--accent-2); }
+.btn.primary:hover { background: var(--accent); border-color: var(--accent); }
+
+.empty, .error { text-align: center; color: var(--muted); padding: 3rem 0; }
+.error { color: #fca5a5; }
+
+footer {
+	border-top: 1px solid var(--border);
+	padding: 2rem 0 3rem;
+	color: var(--muted);
+	font-size: .85rem;
+	text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* { transition: none !important; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+	<header>
+		<img class="logo" src="/logo.png" alt="EndlessClient" onerror="this.style.display='none'">
+		<h1>Mods EndlessClient</h1>
+		<p class="tagline">Catalogue des mods, bibliotheques et outils.</p>
+		<div class="stats" id="stats"></div>
+	</header>
+
+	<div class="controls">
+		<input type="search" id="q" placeholder="Rechercher un mod..." autocomplete="off" aria-label="Rechercher">
+		<select id="category" aria-label="Categorie"></select>
+		<select id="loader" aria-label="Chargeur"></select>
+		<select id="mc" aria-label="Version Minecraft"></select>
+	</div>
+
+	<main class="grid" id="grid" aria-live="polite"></main>
+
+	<footer>
+		<p>
+			<a href="mods.json">mods.json</a> ·
+			<a href="https://endlessclient.dev">endlessclient.dev</a> ·
+			<a href="https://github.com/th3darksand8tch/EndlessClient" rel="noopener">GitHub</a>
+		</p>
+		<p id="generated"></p>
+		<p>
+			Chaque mod reste sous sa licence d'origine (GPL-3.0, LGPL-3.0, MIT…).
+			Les mentions de copyright et les licences complètes sont conservées
+			dans les sources.
+		</p>
+	</footer>
+</div>
+
+<script>
+const grid = document.getElementById('grid');
+const statsEl = document.getElementById('stats');
+const inputs = {
+	q: document.getElementById('q'),
+	category: document.getElementById('category'),
+	loader: document.getElementById('loader'),
+	mc: document.getElementById('mc'),
+};
+
+// Ordre de tri des versions Minecraft : numerique par segment, decroissant.
+// "1.21.10" doit passer avant "1.21.9", ce qu'un tri lexicographique rate.
+function compareVersions(a, b) {
+	const pa = a.split('.').map(Number);
+	const pb = b.split('.').map(Number);
+	for (let i = 0; i < Math.max(pa.length, pb.length); i++) {
+		const d = (pb[i] || 0) - (pa[i] || 0);
+		if (d) return d;
+	}
+	return 0;
+}
+
+function fillSelect(el, label, values) {
+	el.innerHTML = '';
+	const all = document.createElement('option');
+	all.value = '';
+	all.textContent = label;
+	el.append(all);
+	for (const v of values) {
+		const o = document.createElement('option');
+		o.value = v;
+		o.textContent = v;
+		el.append(o);
+	}
+}
+
+function initials(name) {
+	return name.replace(/[^A-Za-z]/g, '').slice(0, 2).toUpperCase() || '??';
+}
+
+function fallbackBadge(name) {
+	const d = document.createElement('div');
+	d.className = 'fallback';
+	d.textContent = initials(name);
+	return d;
+}
+
+function tag(text, cls) {
+	const s = document.createElement('span');
+	s.className = 'tag' + (cls ? ' ' + cls : '');
+	s.textContent = text;
+	return s;
+}
+
+function link(href, text, cls) {
+	const a = document.createElement('a');
+	a.href = href;
+	a.textContent = text;
+	a.className = cls;
+	if (href.startsWith('http')) { a.rel = 'noopener'; a.target = '_blank'; }
+	return a;
+}
+
+function card(mod) {
+	const el = document.createElement('article');
+	el.className = 'card';
+
+	const head = document.createElement('div');
+	head.className = 'card-head';
+
+	if (mod.icon) {
+		const img = document.createElement('img');
+		img.src = mod.icon;
+		img.alt = '';
+		img.loading = 'lazy';
+		// Une icone absente ne doit pas laisser un carre casse dans la grille.
+		img.onerror = () => img.replaceWith(fallbackBadge(mod.name));
+		head.append(img);
+	} else {
+		head.append(fallbackBadge(mod.name));
+	}
+
+	const titles = document.createElement('div');
+	const h2 = document.createElement('h2');
+	h2.textContent = mod.name;
+	titles.append(h2);
+	if (mod.version) {
+		const v = document.createElement('div');
+		v.className = 'version';
+		v.textContent = mod.version;
+		titles.append(v);
+	}
+	head.append(titles);
+	el.append(head);
+
+	if (mod.description) {
+		const p = document.createElement('p');
+		p.className = 'desc';
+		p.textContent = mod.description;
+		el.append(p);
+	}
+
+	const tags = document.createElement('div');
+	tags.className = 'tags';
+	for (const l of mod.loaders || []) tags.append(tag(l, 'loader'));
+	for (const v of (mod.minecraft || []).slice(0, 4)) tags.append(tag(v));
+	if ((mod.minecraft || []).length > 4) tags.append(tag('+' + (mod.minecraft.length - 4)));
+	if (mod.license) tags.append(tag(mod.license));
+	if (tags.children.length) el.append(tags);
+
+	const links = document.createElement('div');
+	links.className = 'links';
+	if (mod.jar) links.append(link(mod.jar, 'Telecharger', 'btn primary'));
+	if (mod.modrinth) links.append(link('https://modrinth.com/mod/' + mod.modrinth, 'Modrinth', 'btn'));
+	if (mod.upstream) links.append(link(mod.upstream, 'Source', 'btn'));
+	links.append(link('meta/' + mod.slug + '.json', 'JSON', 'btn'));
+	el.append(links);
+
+	return el;
+}
+
+function render(mods) {
+	const q = inputs.q.value.trim().toLowerCase();
+	const cat = inputs.category.value;
+	const loader = inputs.loader.value;
+	const mc = inputs.mc.value;
+
+	const shown = mods.filter((m) => {
+		if (cat && m.category !== cat) return false;
+		if (loader && !(m.loaders || []).includes(loader)) return false;
+		if (mc && !(m.minecraft || []).includes(mc)) return false;
+		if (!q) return true;
+		return (m.name + ' ' + (m.description || '') + ' ' + m.repo).toLowerCase().includes(q);
+	});
+
+	grid.replaceChildren(...shown.map(card));
+	if (!shown.length) {
+		const p = document.createElement('p');
+		p.className = 'empty';
+		p.textContent = 'Aucun resultat.';
+		grid.append(p);
+	}
+}
+
+fetch('mods.json')
+	.then((r) => {
+		if (!r.ok) throw new Error(r.status + ' ' + r.statusText);
+		return r.json();
+	})
+	.then((data) => {
+		// Les depots vides sont des clones sans contenu : hors catalogue public.
+		const mods = data.mods.filter((m) => m.category !== 'empty');
+
+		const categories = [...new Set(mods.map((m) => m.category))].sort();
+		const loaders = [...new Set(mods.flatMap((m) => m.loaders || []))].sort();
+		const versions = [...new Set(mods.flatMap((m) => m.minecraft || []))].sort(compareVersions);
+
+		fillSelect(inputs.category, 'Toutes categories', categories);
+		fillSelect(inputs.loader, 'Tous chargeurs', loaders);
+		fillSelect(inputs.mc, 'Toutes versions MC', versions);
+
+		const modCount = mods.filter((m) => m.category === 'mod').length;
+		const jarCount = mods.filter((m) => m.jar).length;
+		statsEl.replaceChildren();
+		for (const [label, value] of [
+			['mods', modCount],
+			['projets', mods.length],
+			['versions MC', versions.length],
+			['.jar en ligne', jarCount],
+		]) {
+			const s = document.createElement('span');
+			s.className = 'stat';
+			const b = document.createElement('b');
+			b.textContent = value;
+			s.append(b, ' ' + label);
+			statsEl.append(s);
+		}
+
+		if (data.generated) {
+			document.getElementById('generated').textContent =
+				'Catalogue genere le ' + new Date(data.generated).toLocaleString('fr-FR');
+		}
+
+		for (const el of Object.values(inputs)) {
+			el.addEventListener('input', () => render(mods));
+		}
+		render(mods);
+	})
+	.catch((err) => {
+		grid.replaceChildren();
+		const p = document.createElement('p');
+		p.className = 'error';
+		p.textContent = 'Impossible de charger mods.json : ' + err.message;
+		grid.append(p);
+	});
+</script>
+
+</body>
+</html>

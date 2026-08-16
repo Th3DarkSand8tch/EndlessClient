@@ -1,0 +1,31 @@
+{
+  "id": "endlessweather",
+  "name": "EndlessWeather",
+  "slug": "endlessweather",
+  "version": "1.2.3",
+  "description": "EndlessWeather allows the user to (visually) change the in-game weather in various ways, such as setting it to the real weather, setting the intensity, and just setting the weather manually.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "PolyWeather",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "r8Cr8YRg",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/endless_weather.svg",
+  "jar": null
+}

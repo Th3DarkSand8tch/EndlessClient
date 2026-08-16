@@ -1,0 +1,18 @@
+{
+  "id": "endlessconfigmigrator",
+  "name": "EndlessConfigMigrator",
+  "slug": "endlessconfigmigrator",
+  "version": null,
+  "description": "A (extremely) simple Python script that attempts to migrate Essential code to EndlessConfig's API.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "OneConfigMigrator",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

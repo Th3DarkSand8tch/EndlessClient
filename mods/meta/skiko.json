@@ -1,0 +1,18 @@
+{
+  "id": "skiko",
+  "name": "skiko",
+  "slug": "skiko",
+  "version": null,
+  "description": "Skiko (short for Skia for Kotlin) is the graphical library exposing significant part",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "skiko",
+  "loaders": [],
+  "minecraft": [],
+  "license": "Apache-2.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

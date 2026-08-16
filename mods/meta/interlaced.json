@@ -1,0 +1,18 @@
+{
+  "id": "interlaced",
+  "name": "interlaced",
+  "slug": "interlaced",
+  "version": null,
+  "description": "All rights reserved. Copyright EndlessClient and contributors, 2024.",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "interlaced",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "mountopacity",
+  "name": "MountOpacity",
+  "slug": "mountopacity",
+  "version": "1.0.0-alpha.1",
+  "description": "Opacity for entities you can ride.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "MountOpacity",
+  "loaders": [
+    "forge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

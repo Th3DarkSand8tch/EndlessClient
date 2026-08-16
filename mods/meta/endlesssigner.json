@@ -1,0 +1,18 @@
+{
+  "id": "endlesssigner",
+  "name": "EndlessSigner",
+  "slug": "endlesssigner",
+  "version": null,
+  "description": "A CLI and a Gradle plugin to help sign EndlessConfig releases easily.",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "PolySigner",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

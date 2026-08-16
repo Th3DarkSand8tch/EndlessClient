@@ -1,0 +1,31 @@
+{
+  "id": "endlessparticles",
+  "name": "EndlessParticles",
+  "slug": "endlessparticles",
+  "version": "1.1.5",
+  "description": "Extremely precise and advanced particle mod for 1.8.9.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "OverflowParticles",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "61g97TVF",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

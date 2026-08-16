@@ -1,0 +1,18 @@
+{
+  "id": "skinview3d",
+  "name": "skinview3d",
+  "slug": "skinview3d",
+  "version": null,
+  "description": "Three.js powered Minecraft skin viewer.",
+  "group": "",
+  "category": "library",
+  "source": "none",
+  "repo": "skinview3d",
+  "loaders": [],
+  "minecraft": [],
+  "license": "MIT",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

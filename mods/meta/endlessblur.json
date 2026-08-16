@@ -1,0 +1,33 @@
+{
+  "id": "endlessblur",
+  "name": "EndlessBlur",
+  "slug": "endlessblur",
+  "version": "2.0.3",
+  "description": "A fork of MonkeyBlur with various improvements and bugfixes.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "PolyBlur",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.7",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": "xT45UG5o",
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/endless_blur.svg",
+  "jar": null
+}

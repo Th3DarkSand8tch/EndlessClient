@@ -1,0 +1,18 @@
+{
+  "id": "tabulous",
+  "name": "Tabulous",
+  "slug": "tabulous",
+  "version": "1.1.0-oc1",
+  "description": "Tabulous is a fully customizable, lightweight tab mod, which doesn't overwrite the rendering system of Minecraft. It has beautiful tab features without effecting the performance of your game, so you can PvP at the top of your game. It has custom colors, animations, positioning, and so much more!",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "Tabulous",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

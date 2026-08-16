@@ -1,0 +1,18 @@
+{
+  "id": "crashdata",
+  "name": "CrashData",
+  "slug": "crashdata",
+  "version": null,
+  "description": "data for crash helper feature",
+  "group": "",
+  "category": "data",
+  "source": "none",
+  "repo": "CrashData",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

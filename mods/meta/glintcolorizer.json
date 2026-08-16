@@ -1,0 +1,23 @@
+{
+  "id": "glintcolorizer",
+  "name": "GlintColorizer",
+  "slug": "glintcolorizer",
+  "version": "2.0.1",
+  "description": "An Overly Complex Glint Customizer",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "GlintColorizer",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": "icons/glint_colorizer.svg",
+  "jar": null
+}

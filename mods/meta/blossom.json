@@ -1,0 +1,18 @@
+{
+  "id": "blossom",
+  "name": "blossom",
+  "slug": "blossom",
+  "version": null,
+  "description": "blossom ![Build Status](https://github.com/KyoriPowered/blossom/actions) ![License][LGPL v2.1] ![Gradle Plugin](https://plugins.gradle.org/plugin/net.kyori.blossom)",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "blossom",
+  "loaders": [],
+  "minecraft": [],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

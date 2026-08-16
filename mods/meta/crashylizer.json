@@ -1,0 +1,18 @@
+{
+  "id": "crashylizer",
+  "name": "Crashylizer",
+  "slug": "crashylizer",
+  "version": null,
+  "description": "",
+  "group": "",
+  "category": "tooling",
+  "source": "none",
+  "repo": "Crashylizer",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "blockoverlay",
+  "name": "EndlessBlockOverlay",
+  "slug": "blockoverlay",
+  "version": "1.0.0",
+  "description": "",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "BlockOverlay",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

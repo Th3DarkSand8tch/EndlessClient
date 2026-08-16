@@ -1,0 +1,28 @@
+# Dépendances et artefacts de build — régénérés par install.sh sur le serveur.
+node_modules/
+dist/
+.astro/
+.output/
+.vite/
+
+# Secrets. install.sh lit /opt/endlessclient/.env sur le serveur ;
+# rien de tout cela ne doit se retrouver dans le dépôt.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Journaux et fichiers temporaires
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Source du logo : on versionne les déclinaisons générées, pas l'original.
+logo-source.png
+
+# Les .jar NE SONT PAS ignorés : ce dépôt sert aussi à les distribuer.
+# S'ils deviennent volumineux, bascule mods/jars/ sur Git LFS plutôt que
+# de les exclure — les exclure casserait le catalogue en silence.

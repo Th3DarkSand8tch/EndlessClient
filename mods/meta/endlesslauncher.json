@@ -1,0 +1,18 @@
+{
+  "id": "endlesslauncher",
+  "name": "EndlessLauncher",
+  "slug": "endlesslauncher",
+  "version": null,
+  "description": "The monorepo containing the code for EndlessLauncher, EndlessClient, and their core backend.",
+  "group": "",
+  "category": "app",
+  "source": "none",
+  "repo": "OneLauncher",
+  "loaders": [],
+  "minecraft": [],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

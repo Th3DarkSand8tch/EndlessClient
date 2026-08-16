@@ -1,0 +1,31 @@
+{
+  "id": "redaction",
+  "name": "REDACTION",
+  "slug": "redaction",
+  "version": "2.0.1",
+  "description": "THE CLEANEST MINECRAFT EXPERIENCE EVER (no hacks included).",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "stonecutter",
+  "repo": "REDACTION",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.21.1",
+    "1.21.4",
+    "1.21.5",
+    "1.21.8",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

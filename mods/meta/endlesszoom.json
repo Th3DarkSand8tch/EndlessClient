@@ -1,0 +1,22 @@
+{
+  "id": "endlesszoom",
+  "name": "EndlessZoom",
+  "slug": "endlesszoom",
+  "version": "1.0.0",
+  "description": "",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "PolyZoom",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.8.9"
+  ],
+  "license": "GPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

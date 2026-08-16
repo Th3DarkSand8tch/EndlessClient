@@ -1,0 +1,18 @@
+{
+  "id": "pluswebsite",
+  "name": "plus-website",
+  "slug": "plus-website",
+  "version": null,
+  "description": "This repo contains the code for the PolyPlus frontend.",
+  "group": "",
+  "category": "infra",
+  "source": "none",
+  "repo": "plus-website",
+  "loaders": [],
+  "minecraft": [],
+  "license": "AGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

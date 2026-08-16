@@ -1,0 +1,25 @@
+{
+  "id": "easeify",
+  "name": "Easeify",
+  "slug": "easeify",
+  "version": "1.1.0",
+  "description": "Easeify is a mod aimed to improve your Minecraft experience through small QoL features, based off Patcher and other 1.8 QoL mods.",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "Easeify",
+  "loaders": [
+    "fabric"
+  ],
+  "minecraft": [
+    "1.18.2",
+    "1.19",
+    "1.19.1",
+    "1.19.2"
+  ],
+  "license": "LGPL-3.0",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

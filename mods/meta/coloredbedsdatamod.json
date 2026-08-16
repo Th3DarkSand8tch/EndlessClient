@@ -1,0 +1,22 @@
+{
+  "id": "coloredbedsdata",
+  "name": "ColoredBedsData",
+  "slug": "coloredbedsdatamod",
+  "version": "1.0.0",
+  "description": "",
+  "group": "",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "ColoredBedsDataMod",
+  "loaders": [
+    "forge"
+  ],
+  "minecraft": [
+    "1.12.2"
+  ],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

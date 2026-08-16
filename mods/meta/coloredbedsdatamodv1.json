@@ -1,0 +1,18 @@
+{
+  "id": "coloredbedsdatamodv1",
+  "name": "ColoredBedsDataModV1",
+  "slug": "coloredbedsdatamodv1",
+  "version": "1.0.0",
+  "description": "Example mod implementing EndlessConfig.",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "ColoredBedsDataModV1",
+  "loaders": [],
+  "minecraft": [],
+  "license": null,
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}

@@ -1,0 +1,24 @@
+{
+  "id": "windowedfullscreen",
+  "name": "WindowedFullscreen",
+  "slug": "windowedfullscreen",
+  "version": "1.0.0-alpha.2",
+  "description": "",
+  "group": "org.endlessclient",
+  "category": "mod",
+  "source": "gradle",
+  "repo": "WindowedFullscreen",
+  "loaders": [
+    "forge",
+    "fabric"
+  ],
+  "minecraft": [
+    "1.8.9",
+    "1.12.2"
+  ],
+  "license": "other",
+  "modrinth": null,
+  "upstream": "https://github.com/th3darksand8tch/EndlessClient",
+  "icon": null,
+  "jar": null
+}
